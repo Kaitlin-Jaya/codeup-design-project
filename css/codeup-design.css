@@ -60,6 +60,7 @@ nav .nav-item {
     /*text-align: center;*/
     /*display: flex;*/
 }
+
 .location{
     justify-content: center;
 }
@@ -123,18 +124,21 @@ h5{
 }
 
 .media-body{
-    font-family:'Anton',san-serif;
+    font-family: 'Anton',sans-serif;
 }
+
 .media-image{
     height: 64px;
     width: 64px;
 }
+
 .btn-div{
     width: 178px;
     height: 159px;
     padding: 0;
     justify-content: space-evenly;
 }
+
 .leftCol{
     text-align: center;
 
