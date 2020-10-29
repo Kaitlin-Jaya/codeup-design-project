@@ -40,3 +40,20 @@ nav .nav-item {
         top: 5px;
     }
 }
+
+.btn-primary {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background: #000
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*border-radius: 100%;*/
+    /*text-align: center;*/
+    /*display: flex;*/
+}
