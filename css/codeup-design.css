@@ -59,14 +59,15 @@ nav .nav-item {
     /*text-align: center;*/
     /*display: flex;*/
 }
-h1{
-    font-size: 64px;
+.location{
+    justify-content: center;
 }
 h1,h2 {
     font-family: 'Anton',sans-serif ;
 }
 h2{
     font-size: 40px;
+    text-align: right;
 }
 .btn-red{background-color: #E6563B;
 }
@@ -78,4 +79,12 @@ h2{
 }
 .btn-green{
     background-color:#7CB06C;
+}
+.bottom-container{
+    font-family: 'Abel', sans-serif;
+
+}
+h5{
+    text-align: center;
+    m
 }
