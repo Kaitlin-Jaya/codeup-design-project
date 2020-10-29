@@ -44,16 +44,38 @@ nav .nav-item {
 .btn-primary {
     width: 150px;
     height: 150px;
-    border: 3px solid white;
+    border: 5px solid white;
     line-height: 150px;
     border-radius: 50%;
     font-size: 30px;
     color: #fff;
     text-align: center;
-    background: #000
+    background: #000;
+    font-family: 'Anton',sans-serif ;
+    margin: .5em;
     /*justify-content: center;*/
     /*align-items: center;*/
     /*border-radius: 100%;*/
     /*text-align: center;*/
     /*display: flex;*/
+}
+h1{
+    font-size: 64px;
+}
+h1,h2 {
+    font-family: 'Anton',sans-serif ;
+}
+h2{
+    font-size: 40px;
+}
+.btn-red{background-color: #E6563B;
+}
+.btn-yellow{
+    background-color:#DEA03D;
+}
+.btn-blue{
+    background-color:#00ABA9
+}
+.btn-green{
+    background-color:#7CB06C;
 }
