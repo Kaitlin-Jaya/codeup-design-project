@@ -12,12 +12,23 @@
     <link rel="stylesheet" href="css/codeup-design.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c70dbddcf.js" crossorigin="anonymous"></script>
 <style>
     .circle{
         background: #00ABA9;
         width: 100px;
         height: 100px;
-        margin: 1em;
+        border-radius: 200px;
+        color: white;
+        font-weight: bold;
+        display: table;
+        margin: 20px auto;
+        border: 8px solid white;
+    }
+    .circle p {
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
     }
     .main-design-div{
         display: flex;
@@ -36,11 +47,14 @@
     .bottom-container {
         margin-top: 3em;
     }
+    .card{
+        background-color: #8e1515;
+    }
 
     /*XS View------------------------------*/
     @media screen and (min-width:400px) {
         .main-design-div {
-            width: 300px;
+            width: 275px;
             justify-content: space-around;
             flex-wrap: wrap;
 
@@ -79,6 +93,27 @@
                 flex-wrap: nowrap;
             }
         }
+    }
+
+    i{
+        width: 18px;
+        height: 18px;
+        color: #94ffff;
+    }
+
+    .red{background-color: #E6563B;
+    }
+
+    .yellow{
+        background-color:#DEA03D;
+    }
+
+   .blue{
+        background-color:#00ABA9
+    }
+
+    .green{
+        background-color:#7CB06C;
     }
 </style>
 </head>
@@ -133,20 +168,21 @@
 <div class="main-design-div">
     <div class="circle red">
 
-        DESIGN A
+        <p>DESIGN </p>
 
     </div>
     <div class="circle yellow">
-        DESIGN B
+        <p>DEVELOP</p>
 
     </div>
     <div class="circle green">
 
-        DESIGN C
+        <p>SUPPORT</p>
 
     </div >
     <div class="circle blue">
-        DESIGN D
+
+        <p>HOST </p>
 
 
     </div>
@@ -217,9 +253,8 @@
 
                     <div class="card col-12" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title"><i class="fab fa-twitter"></i>LAST TWEET</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. , vitae voluptate?</p>
 
                         </div>
                     </div>
