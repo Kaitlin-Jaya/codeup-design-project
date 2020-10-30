@@ -132,12 +132,12 @@ h5{
     width: 64px;
 }
 
-.btn-div{
-    width: 178px;
-    height: 159px;
-    padding: 0;
-    justify-content: space-evenly;
-}
+/*.btn-div{*/
+/*    width: 178px;*/
+/*    height: 159px;*/
+/*    padding: 0;*/
+/*    justify-content: space-evenly;*/
+/*}*/
 
 .leftCol{
     text-align: center;
