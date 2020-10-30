@@ -65,14 +65,7 @@ nav .nav-item {
     justify-content: center;
 }
 
-h1,h2 {
-    font-family: 'Anton',sans-serif ;
-}
 
-h2{
-    font-size: 40px;
-    text-align: center;
-}
 
 .btn-red,.badge-red{background-color: #E6563B;
 }
@@ -87,49 +80,6 @@ h2{
 
 .btn-green,.badge-green{
     background-color:#7CB06C;
-}
-
-.bottom-container{
-    font-family: 'Abel', sans-serif;
-
-}
-
-.card-body {
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: .25rem;
-    /*border: #f0f0f0;*/
-    border-style: none;
-    background-color: #f0f0f0;
-}
-
-.card {
-    border-style: none;
-}
-
-h5{
-    text-align: center;
-}
-
-.card-img-top {
-    border: solid grey 6px;
-    border-radius: 5px;
-}
-
-.badge-pill {
-    border-radius: 50%;
-    height: 18px;
-    width: 18px;
-}
-
-.media-body{
-    font-family: 'Anton',sans-serif;
-}
-
-.media-image{
-    height: 64px;
-    width: 64px;
 }
 
 /*.btn-div{*/

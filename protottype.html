@@ -9,113 +9,10 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/codeup-design.css">
+    <link rel="stylesheet" href="css/prototype.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4c70dbddcf.js" crossorigin="anonymous"></script>
-<style>
-    .circle{
-        background: #00ABA9;
-        width: 100px;
-        height: 100px;
-        border-radius: 200px;
-        color: white;
-        font-weight: bold;
-        display: table;
-        margin: 20px auto;
-        border: 8px solid white;
-    }
-    .circle p {
-        text-align: center;
-        vertical-align: middle;
-        display: table-cell;
-    }
-    .main-design-div{
-        display: flex;
-        margin:  3em auto;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        height: 230px;
-    }
-
-    img {
-        height: 100px;
-        width: 100px;
-        margin: 1em
-    }
-
-    .bottom-container {
-        margin-top: 3em;
-    }
-    .card{
-        background-color: #8e1515;
-    }
-
-    /*XS View------------------------------*/
-    @media screen and (min-width:400px) {
-        .main-design-div {
-            width: 275px;
-            justify-content: space-around;
-            flex-wrap: wrap;
-
-        }
-
-        /* Small devices (phones and pocket devices, 576 and up) */
-        @media screen and (min-width: 576px) {
-            .main-design-div {
-                width: 490px;
-                justify-content: space-around;
-                flex-wrap: nowrap;
-            }
-        }
-        /* Medium devices (tablets, 768px and up) */
-        @media screen and (min-width: 768px) {
-            .main-design-div {
-                width: 500px;
-                justify-content: space-around;
-                flex-wrap: nowrap;
-            }
-        }
-
-        /* Large devices (desktops, 992px and up) */
-        @media screen and (min-width: 992px) {
-            .main-design-div {
-                width: 500px;
-                justify-content: space-around;
-                flex-wrap: nowrap;
-            }
-        }
-        /* Extra large devices (large desktops, 1200px and up) */
-        @media screen and (min-width: 1200px) {
-            .main-design-div {
-                width: 500px;
-                justify-content: space-around;
-                flex-wrap: nowrap;
-            }
-        }
-    }
-
-    i{
-        width: 18px;
-        height: 18px;
-        color: #94ffff;
-    }
-
-    .red{background-color: #E6563B;
-    }
-
-    .yellow{
-        background-color:#DEA03D;
-    }
-
-   .blue{
-        background-color:#00ABA9
-    }
-
-    .green{
-        background-color:#7CB06C;
-    }
-</style>
 </head>
 <body>
 <!--    Begin Navbar--------------------------------------->
@@ -199,27 +96,67 @@
                 <div class="row">
 <!--                     DIV for first group of images-->
                     <div class="col-12 col-sm-6">
-                        <div>
-                            <img src="img/apple-ipad.jpg" alt="apple">
-                        </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/apple-ipad.jpg" class="card-img-top" alt="apple">
+                                <div class="card-body">
+                                    <h5>FEATURE PROJECTS</h5>
+                                    <div class="pill-container">
+                                        <span class="badge badge-pill badge-primary badge-red">D</span>
+                                        <span class="badge badge-pill badge-primary badge-yellow">D</span>
+                                        <span class="badge badge-pill badge-primary badge-green">S</span>
+                                        <span class="badge badge-pill badge-primary badge-blue">H</span>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                            <img src="img/apple-ipad.jpg" alt="apple">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="img/man.jpg" class="card-img-top" alt="man-squinting">
+                                <div class="card-body">
+                                    <h5>FEATURE PROJECTS</h5>
+                                    <div class="pill-container">
+                                        <span class="badge badge-pill badge-primary badge-red">D</span>
+                                        <span class="badge badge-pill badge-primary badge-yellow">D</span>
+                                        <span class="badge badge-pill badge-primary badge-green">S</span>
+                                        <span class="badge badge-pill badge-primary badge-blue">H</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 <!--                    DIV for second group of images-->
                     <div class="col-12 col-sm-6">
                         <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                            <img src="img/apple-ipad.jpg" alt="apple">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/macbook.jpg" class="card-img-top" alt="macbook">
+                                <div class="card-body">
+                                    <h5>FEATURE PROJECTS</h5>
+                                    <div class="pill-container">
+                                        <span class="badge badge-pill badge-primary badge-red">D</span>
+                                        <span class="badge badge-pill badge-primary badge-yellow">D</span>
+                                        <span class="badge badge-pill badge-primary badge-green">S</span>
+                                        <span class="badge badge-pill badge-primary badge-blue">H</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                            <img src="img/apple-ipad.jpg" alt="apple">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="img/security.jpg" class="card-img-top" alt="security">
+                                <div class="card-body">
+                                    <h5>FEATURE PROJECTS</h5>
+                                    <div class="pill-container">
+                                        <span class="badge badge-pill badge-primary badge-red">D</span>
+                                        <span class="badge badge-pill badge-primary badge-yellow">D</span>
+                                        <span class="badge badge-pill badge-primary badge-green">S</span>
+                                        <span class="badge badge-pill badge-primary badge-blue">H</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
 <!--                end of row inside image container---------->
-
-
 
             </div>
 <!--            End container for images------------>
@@ -252,7 +189,7 @@
                     </ul>
 
                     <div class="card col-12" style="width: 18rem;">
-                        <div class="card-body">
+                        <div class="card-body twitter">
                             <h5 class="card-title"><i class="fab fa-twitter"></i>LAST TWEET</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. , vitae voluptate?</p>
 

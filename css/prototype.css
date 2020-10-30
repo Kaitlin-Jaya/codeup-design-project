@@ -1,0 +1,202 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background: #f0f0f0;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brand-name {font-size: 1.75em;}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+@media screen and (min-width: 992px) {
+    .sub-title {text-align: left;}
+    hr {width: 100%;}
+
+    .brand-name  {
+        position: relative;
+        top: 5px;
+    }
+}
+.circle{
+    background: #00ABA9;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    color: white;
+    font-weight: bold;
+    display: table;
+    margin: 20px auto;
+    border: 8px solid white;
+}
+.circle p {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.main-design-div{
+    display: flex;
+    margin:  3em auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 230px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 1em
+}
+
+.bottom-container {
+    margin-top: 3em;
+}
+.card{
+    background-color: #f0f0f0;
+}
+
+
+
+/*XS View------------------------------*/
+@media screen and (min-width:400px) {
+    .main-design-div {
+        width: 275px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    /* Small devices (phones and pocket devices, 576 and up) */
+    @media screen and (min-width: 576px) {
+        .main-design-div {
+            width: 490px;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+        }
+    }
+    /* Medium devices (tablets, 768px and up) */
+    @media screen and (min-width: 768px) {
+        .main-design-div {
+            width: 500px;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        .main-design-div {
+            width: 500px;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+        }
+    }
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media screen and (min-width: 1200px) {
+        .main-design-div {
+            width: 500px;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+        }
+    }
+}
+
+i{
+    width: 18px;
+    height: 18px;
+    color: #55ADEF;
+}
+
+.red,.badge-red{background-color: #E6563B;
+}
+
+.yellow,.badge-yellow{
+    background-color:#DEA03D;
+}
+
+.blue,.badge-blue{
+    background-color:#00ABA9
+}
+
+.green,.badge-green{
+    background-color:#7CB06C;
+}
+.card-body {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .25rem;
+    /*border: #f0f0f0;*/
+    border-style: none;
+    background-color: #f0f0f0;
+}
+.card-body twitter{
+    border-style: none;
+    background-color: #f0f0f0;
+    display: flex;
+}
+h1,h2 {
+    font-family: 'Anton',sans-serif ;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.bottom-container{
+    font-family: 'Abel', sans-serif;
+
+}
+
+
+
+.card {
+    border-style: none;
+}
+
+h5{
+    text-align: center;
+}
+
+.card-img-top {
+    border: solid grey 6px;
+    border-radius: 5px;
+}
+
+.badge-pill {
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+}
+
+.media-body{
+    font-family: 'Anton',sans-serif;
+}
+
+.media-image{
+    height: 64px;
+    width: 64px;
+}
