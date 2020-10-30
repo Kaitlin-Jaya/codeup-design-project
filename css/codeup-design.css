@@ -41,9 +41,9 @@ nav .nav-item {
     }
 }
 
-.btn-primary {
-    width: 150px;
-    height: 150px;
+.our-btn-primary {
+    width: 128px;
+    height: 128px;
     border: 10px solid white;
     line-height: 150px;
     border-radius: 50%;
