@@ -66,8 +66,7 @@ nav .nav-item {
     margin:  2em auto 7em auto;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 230px;
-
+    height: 180px;
 
 }
 
@@ -91,9 +90,12 @@ nav .nav-item {
 /*XS View------------------------------*/
 @media screen and (min-width:300px) {
     .main-design-div {
+        height: 180px;
         width: 250px;
         justify-content: space-around;
         flex-wrap: wrap;
+        margin:  2em auto 7em auto;
+
     }
 
     }
@@ -101,27 +103,36 @@ nav .nav-item {
     /* Still extra small devices (phones and pocket devices, 576 and up) */
     @media screen and (min-width: 576px) {
         .main-design-div {
+            height: 180px;
             width: 490px;
             justify-content: space-around;
             flex-wrap: nowrap;
-        }
+            margin:  2em auto 7em auto;
+            border-bottom: 1px solid #827979;        }
 
-        .bottom-container {
-            border-top: 2px solid black;
-        }
+        /*.bottom-container {*/
+        /*    border-top: 2px solid black;*/
+        /*}*/
     }
     /* Small (tablets, 768px and up) */
     @media screen and (min-width: 768px) {
         .main-design-div {
+            height: 180px;
             width: 500px;
             justify-content: space-around;
             flex-wrap: nowrap;
-        }
+            border-bottom: 1px solid #827979;        }
 
-        .bottom-container {
-            border-top: 2px solid black;
+        /*.bottom-container {*/
+        /*    border-top: 2px solid black;*/
+        /*}*/
+        .park-city{
+            font-size: 32px;
         }
+        .visual{
+            font-size: 48px;
 
+        }
         /*.work>h5 {*/
         /*    text-align: left;*/
         /*}*/
@@ -130,14 +141,16 @@ nav .nav-item {
     /* Medium (desktops, 992px and up) */
     @media screen and (min-width: 1024px) {
         .main-design-div {
+            height: 180px;
             width: 500px;
             justify-content: space-around;
             flex-wrap: nowrap;
-        }
+            margin:  2em auto 2em auto;
+            border-bottom: 1px solid #827979;        }
 
-        .bottom-container {
-            border-top: 2px solid black;
-        }
+        /*.bottom-container {*/
+        /*    border-top: 2px solid black;*/
+        /*}*/
 
         .work>h5 {
             text-align: left;
@@ -146,14 +159,17 @@ nav .nav-item {
     /* Large and extra-large devices (large desktops, 1200px and up) */
     @media screen and (min-width: 1440px) {
         .main-design-div {
+            height: 180px;
             width: 500px;
             justify-content: space-around;
             flex-wrap: nowrap;
+            margin:  2em auto 2em auto;
+            border-bottom: 1px solid #827979;
         }
 
-        .bottom-container {
-            border-top: 2px solid black;
-        }
+        /*.bottom-container {*/
+        /*    border-top: 2px solid black;*/
+        /*}*/
 
         .work>h5 {
             text-align: left;
