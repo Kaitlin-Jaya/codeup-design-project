@@ -133,6 +133,11 @@ nav .nav-item {
             font-size: 48px;
 
         }
+
+        .man {
+            height: 224px;
+            width: 330px;
+        }
         /*.work>h5 {*/
         /*    text-align: left;*/
         /*}*/
@@ -155,6 +160,13 @@ nav .nav-item {
         .work>h5 {
             text-align: left;
         }
+
+        .man {
+            height: 197px;
+            width: 290px;
+        }
+
+
     }
     /* Large and extra-large devices (large desktops, 1200px and up) */
     @media screen and (min-width: 1440px) {
@@ -173,7 +185,14 @@ nav .nav-item {
 
         .work>h5 {
             text-align: left;
-    }
+         }
+
+        .man {
+            height: 237px;
+            width: 350px;
+        }
+
+
 }
 
 i{
