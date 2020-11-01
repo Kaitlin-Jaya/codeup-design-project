@@ -271,3 +271,7 @@ h5{
     margin: 1em;
 }
 
+.media-body>h5 {
+    text-align: left;
+}
+
