@@ -83,21 +83,22 @@ nav .nav-item {
 
 
 /*XS View------------------------------*/
-@media screen and (min-width:300px) {
-    .main-design-div {
-        height: 180px;
-        width: 250px;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin:  4em auto 10em auto;
+    @media screen and (min-width:300px) {
+        .main-design-div {
+            height: 180px;
+            width: 250px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin:  4em auto 10em auto;
+
+        }
+
+        .park-city{
+            font-size: 28px;
+        }
 
     }
 
-    .park-city{
-        font-size: 28px;
-    }
-
-    }
 
     /* Still extra small devices (phones and pocket devices, 576 and up) */
     @media screen and (min-width: 576px) {
@@ -113,9 +114,6 @@ nav .nav-item {
             font-size: 28px;
         }
     }
-
-
-
 
 
     /* Small (tablets, 768px and up) */
@@ -167,6 +165,7 @@ nav .nav-item {
 
 
     }
+
     /* Large and extra-large devices (large desktops, 1440px and up) */
     @media screen and (min-width: 1440px) {
         .main-design-div {
@@ -189,6 +188,7 @@ nav .nav-item {
         }
 
 }
+
 
 i{
     width: 18px;
